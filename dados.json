@@ -1,0 +1,46 @@
+{
+    "autores": {
+        "oda": [
+            "one piece"
+        ],
+        "kishimoto": [
+            "Naruto"
+        ],
+        "a": [
+            "dragon balls",
+            "dragon ball"
+        ]
+    },
+    "editoras": {
+        "shonen jump": [
+            "Naruto",
+            "dragon ball",
+            "dragon balls"
+        ],
+        "teste": [
+            "teste"
+        ]
+    },
+    "mangas": [
+        {
+            "naruto": {
+                "autor": "kishimoto",
+                "genero": "shounen",
+                "editora": "shounen jump",
+                "sinopse": "",
+                "volumes": 2,
+                "valor": 50
+            }
+        },
+        {
+            "jujutsu": {
+                "autor": 1,
+                "genero": 1,
+                "editora": 1,
+                "sinopse": 1,
+                "volumes": 2,
+                "valor": 50
+            }
+        }
+    ]
+}
