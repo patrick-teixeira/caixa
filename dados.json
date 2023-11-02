@@ -1,26 +1,4 @@
 {
-    "autores": {
-        "oda": [
-            "one piece"
-        ],
-        "kishimoto": [
-            "Naruto"
-        ],
-        "a": [
-            "dragon balls",
-            "dragon ball"
-        ]
-    },
-    "editoras": {
-        "shonen jump": [
-            "Naruto",
-            "dragon ball",
-            "dragon balls"
-        ],
-        "teste": [
-            "teste"
-        ]
-    },
     "mangas": [
         {
             "naruto": {
