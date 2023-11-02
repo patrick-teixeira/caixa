@@ -43,7 +43,7 @@ class interface(customtkinter.CTk):
 
     def adicionar_ao_carrinho(self):
         manga = customtkinter.CTkInputDialog(text=f'Qual mangá deseja adcionar?', title='Adcionar')
-        manga = manga.get_input()
+        manga = manga.get_input().lower()
         try:
             if pesquisar(manga) == True:
                 valor = valor_manga(manga)
@@ -150,7 +150,7 @@ class interface(customtkinter.CTk):
                 self.carrinho = []
                 break
     def sair(self):
-        self.root.destroy()
+        self.destroy()
 
 
 Interface = interface()
